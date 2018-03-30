@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_carid"
+            android:icon="@drawable/ic_directions_car_black_36dp"
+            android:title="CarId"
+            />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_account_balance_wallet_black_36dp"
+            android:title="Wallet"
+            />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_36dp"
+            android:title="Go Home"
+            />
+        <item
+            android:id="@+id/nav_love"
+            android:icon="@drawable/ic_favorite_border_black_36dp"
+            android:title="Favorite"/>
+        <item
+            android:id="@+id/nav_security"
+            android:icon="@drawable/ic_security_white_36dp"
+            android:title="Security"/>
+    </group>
+</menu>
